@@ -16,7 +16,7 @@ export default function Page() {
     "I Fuck You",
     "Batao ek Ichha jo puri kru"
     "Dudu 🧂🍼🍼🍼🍼🍼🍼",
-    "Send me Kiss Clip💋💋"
+    "Send me Kiss Clip💋💋",
     "Truth Dare Khele Romantic Wala",
   ]
   
@@ -65,7 +65,6 @@ export default function Page() {
                   placeholder="kshitij_x_neetu@kshitij.com"
 
                 />
-                
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password" className="text-cyan-300 font-semibold">
