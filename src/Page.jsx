@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Heart, Sparkles, Gift, Laugh } from "lucide-react"
 import { Card, CardHeader, CardTitle, CardContent } from "./components/ui/card"
-import { Button} from "./components/ui/button"
+import { Button } from "./components/ui/button"
 import { Input } from "./components/ui/input"
 import { Label } from "./components/ui/label"
 
@@ -13,12 +13,13 @@ export default function Page() {
   const [currentJoke, setCurrentJoke] = useState(0)
 
   const jokes = [
-    "Why don't scientists trust atoms? Because they make up everything! 😄",
-    "I told my wife she was drawing her eyebrows too high. She looked surprised! 😂",
-    "Why don't eggs tell jokes? They'd crack each other up! 🥚",
-    "What do you call a fake noodle? An impasta! 🍝",
-    "Why did the scarecrow win an award? He was outstanding in his field! 🌾",
+    "I Fuck You",
+    "Dudu Pilao",
+    "Nunu wait krra hai",
+    "Vertical Lip Dekhna Hai",
   ]
+  
+
 
   const handleLogin = (e) => {
     e.preventDefault()
@@ -52,7 +53,7 @@ export default function Page() {
             <form onSubmit={handleLogin} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="username" className="text-cyan-300 font-semibold">
-                  Username
+                  Username ( kshitij_x_neetu@kshitij.com )
                 </Label>
                 <Input
                   id="username"
@@ -61,11 +62,13 @@ export default function Page() {
                   onChange={(e) => setUsername(e.target.value)}
                   className="bg-black/30 border-cyan-400/50 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50"
                   placeholder="kshitij_x_neetu@kshitij.com"
+
                 />
+                
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password" className="text-cyan-300 font-semibold">
-                  Secret Code
+                  Secret Code ( @neetu09 )
                 </Label>
                 <Input
                   id="password"
@@ -81,7 +84,7 @@ export default function Page() {
                 className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white font-bold py-3 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-400/30"
               >
                 <Gift className="mr-2 h-5 w-5" />
-                Unlock the Fun! 🎉
+                Chal! 🎉
               </Button>
             </form>
           </CardContent>
@@ -100,9 +103,12 @@ export default function Page() {
       <div className="max-w-4xl mx-auto space-y-6">
         <div className="text-center py-8">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse mb-4">
-            🎪 Welcome to Comedy Zone! 🎪
+            🎪 Welcome to Kshitij's Zone! 🎪
           </h1>
-          <p className="text-cyan-300 text-xl animate-fade-in">Special delivery for the amazing Neetu! 💝</p>
+          <p className="text-cyan-300 text-xl animate-fade-in">
+            Neetu... Nunnu Dekhna hai ky... Vertical lip Batao baby
+          </p>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -146,7 +152,7 @@ export default function Page() {
                 className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white font-bold py-4 px-8 rounded-full transform hover:scale-110 transition-all duration-300 shadow-lg shadow-cyan-400/30 text-lg"
               >
                 <Sparkles className="mr-2 h-6 w-6" />
-                Next Joke! 😄
+                Chal Agla Dekh
               </Button>
             </div>
           </CardContent>
