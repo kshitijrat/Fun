@@ -13,8 +13,8 @@ export default function Page() {
   const [currentJoke, setCurrentJoke] = useState(0)
 
   const jokes = [
-    "I .... You",
-    "Batao ek Ichha jo puri kru"
+    "I Fuck You",
+    "Batao ek Ichha jo puri kru",
     "Dudu 🍼🍼🍼🍼🍼🍼",
     "Send me Kiss Clip💋💋",
     "Truth Dare Khele Romantic Wala",
