@@ -54,7 +54,7 @@ export default function Page() {
             <form onSubmit={handleLogin} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="username" className="text-cyan-300 font-semibold">
-                  Username ( kshitij_x_neetu@kshitij.com )
+                  Username " kshitij_x_neetu@kshitij.com "
                 </Label>
                 <Input
                   id="username"
@@ -69,7 +69,7 @@ export default function Page() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="password" className="text-cyan-300 font-semibold">
-                  Secret Code ( @neetu09 )
+                  Secret Code " @neetu09 "
                 </Label>
                 <Input
                   id="password"
