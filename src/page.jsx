@@ -14,9 +14,10 @@ export default function Page() {
 
   const jokes = [
     "I Fuck You",
-    "Dudu Pilao",
-    "Nunu wait krra hai",
-    "Vertical Lip Dekhna Hai",
+    "Batao ek Ichha jo puri kru"
+    "Dudu 🧂🍼🍼🍼🍼🍼🍼",
+    "Send me Kiss Clip💋💋"
+    "Truth Dare Khele Romantic Wala",
   ]
   
 
