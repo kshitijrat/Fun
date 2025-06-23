@@ -26,7 +26,7 @@ export default function Page() {
     if (username === "kshitij_x_neetu@kshitij.com" && password === "@neetu09") {
       setIsLoggedIn(true)
     } else {
-      alert("Wrong credentials! Try again! 😜")
+      alert("BC Shi Se Daal ! Gand Maar Dunga")
     }
   }
 
